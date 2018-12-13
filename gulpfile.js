@@ -39,7 +39,7 @@ gulp.task('watch', function() {
 	});
 });
 
-// tache CSS = compile vers mon_site.css et ajoute mon_site.css.map
+// tache CSS = compile vers style.css et ajoute style.cssp
 gulp.task('css', function () {
 	var onError = function(err) {
 		notify.onError({
@@ -50,7 +50,7 @@ gulp.task('css', function () {
 		})(err);
 		this.emit('end');
 	};
-  return gulp.src('./css/mon_site.scss')
+  return gulp.src('./css/style.scss')
     .pipe(plumber({errorHandler: onError}))
 	.pipe(sourcemaps.init())
     .pipe(sass({

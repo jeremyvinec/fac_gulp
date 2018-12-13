@@ -1,1 +1,0 @@
-{"version":3,"sources":["mon_site.scss"],"names":[],"mappings":"AACA;EACC,cAAa;EACb,eAHc;EAId,wBAAuB;CACvB","file":"mon_site.css","sourcesContent":["$rouge: #FF0000;\n.roro {\n\tdisplay: flex;\n\tcolor: $rouge;\n\tborder: 2px solid black;\n}\n"]}
